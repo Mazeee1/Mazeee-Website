@@ -1,0 +1,25 @@
+ErrorDocument 404 http://www.mazer800.xyz/404
+php_value display_errors On
+php_value mbstring.http_input auto
+php_value date.timezone Europe/London
+#Mozilla Observatory stuff
+Header add Content-Security-Policy "default-src 'self';"
+# Extra Security Headers
+<IfModule mod_headers.c>
+	Header set X-XSS-Protection "1; mode=block"
+	Header always append X-Frame-Options SAMEORIGIN
+	Header set X-Content-Type-Options nosniff
+</IfModule>
+Header add Referrer-Policy: same-origin
+#remove .html from url
+RewriteEngine on
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+#remove .php from url
+RewriteEngine on
+RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
+RewriteRule ^ /%1 [NC,L,R]
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^ %{REQUEST_URI}.php [NC,L]
