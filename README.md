@@ -1,6 +1,6 @@
 # Mazeee's Website
 
-<img src="https://raw.githubusercontent.com/MazeRunner800/Mazeee-Website/main/logo.png?token=AS4N2ANJY62GRMREVJYJ5MTBNLITK" align="right"
+<img src="https://github.com/Mazeee1/Mazeee-Website/blob/main/logo.png?raw=true" align="right"
      alt="Picture of a Gatwick Express train in Train Sim World 2. My profile picture." width="360" height="360">
 
 This is the source code of my website, hosted on Github Pages. 
