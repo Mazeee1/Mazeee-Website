@@ -6,5 +6,5 @@
 This is the source code of my website, hosted on Github Pages. 
 Feel free to fork the repo and use it however you want, just make sure to abide by the license.
 
-🔗 [**Website**](https://mazer800.xyz/?utm_source=github&utm_medium=repo&utm_campaign=readme.md) | [**Discord Server**](https://mazer800.xyz/discord?utm_source=github&utm_medium=repo&utm_campaign=readme.md)
+🔗 [**Website**](https://mazeee.xyz/?utm_source=github&utm_medium=repo&utm_campaign=readme.md) | [**Discord Server**](https://mazer800.xyz/discord?utm_source=github&utm_medium=repo&utm_campaign=readme.md)
 
